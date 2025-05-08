@@ -11,7 +11,7 @@ case $ARCH in
 esac
 
 # Download binary
-URL="https://github.com/you/yourproject/releases/latest/download/mytool-${OS}-${ARCH}"
+URL="https://github.com/kat-statsig/go-core-poc/releases/latest/download/mytool-${OS}-${ARCH}"
 curl -L "$URL" -o mytool
 chmod +x mytool
 mv mytool /usr/local/bin/
