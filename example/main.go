@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	statsig "github.com/statsig-io/private-statsig-server-core/statsig-go"
+	statsig "kat-statsig/go-core-poc"
 )
 
 func main() {

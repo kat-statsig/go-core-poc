@@ -1,3 +1,3 @@
-module github.com/statsig-io/private-statsig-server-core/statsig-go
+module kat-statsig/go-core-poc
 
 go 1.22.2
