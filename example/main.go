@@ -8,10 +8,6 @@ import (
 	statsig "github.com/kat-statsig/go-core-poc"
 )
 
-func init() {
-    fmt.Println("This runs when the package is imported")
-}
-
 func main() {
 	for i := 0; i < 100; i++ {
 		user := statsig.NewStatsigUser(

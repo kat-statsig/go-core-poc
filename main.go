@@ -56,3 +56,7 @@ func NewStatsigUser(userID string, email string, ipAddress string, userAgent str
 
 	return u
 }
+
+func init() {
+    fmt.Println("This runs when the package is imported")
+}
